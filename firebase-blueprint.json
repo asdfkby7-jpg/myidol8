@@ -1,0 +1,24 @@
+{
+  "entities": {
+    "gameState": {
+      "title": "Game State",
+      "description": "User game save state for Idol Creator Game",
+      "type": "object",
+      "properties": {
+        "companyName": { "type": "string" },
+        "repName": { "type": "string" },
+        "money": { "type": "number" },
+        "fandom": { "type": "number" },
+        "week": { "type": "number" },
+        "reputation": { "type": "number" },
+        "isSetupCompleted": { "type": "boolean" },
+        "trainees": { "type": "array" },
+        "groups": { "type": "array" },
+        "albums": { "type": "array" },
+        "facilities": { "type": "array" },
+        "newsList": { "type": "array" }
+      },
+      "required": ["companyName", "money", "week"]
+    }
+  }
+}

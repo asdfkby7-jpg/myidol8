@@ -1,0 +1,22 @@
+{
+  "short_name": "아이돌키우기",
+  "name": "내맘대로 아이돌 만들기 - K-POP 프로듀서 키우기",
+  "icons": [
+    {
+      "src": "pwa-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "pwa-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0f172a",
+  "theme_color": "#8b5cf6",
+  "display": "standalone",
+  "orientation": "portrait",
+  "description": "K-pop 연예기획사 대표가 되어 연습생 육성, 그룹 데뷔, 앨범 제작 및 콘서트, 예능 활동을 경영하는 아이돌 시뮬레이션 게임"
+}

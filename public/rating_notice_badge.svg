@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 280" width="520" height="280">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&amp;display=swap');
+      .badge-txt { font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif; font-weight: 900; fill: #ffffff; }
+    </style>
+  </defs>
+
+  <!-- Container Background -->
+  <rect x="0" y="0" width="520" height="280" fill="#ffffff" rx="16"/>
+
+  <!-- Badge 1: 공포 (Horror) -->
+  <g transform="translate(10, 0)">
+    <!-- Outer Black Card -->
+    <rect x="0" y="0" width="245" height="280" rx="32" fill="#18181b" stroke="#000000" stroke-width="8"/>
+    <!-- Inner White Area for Lightning -->
+    <rect x="16" y="16" width="213" height="180" rx="20" fill="#ffffff"/>
+    <!-- Lightning Bolts -->
+    <!-- Bolt 1 -->
+    <path d="M72 40 L108 40 L88 98 L118 98 L56 168 L74 114 L48 114 Z" fill="#18181b"/>
+    <!-- Bolt 2 (Center Big) -->
+    <path d="M112 32 L152 32 L128 98 L162 98 L92 178 L112 118 L82 118 Z" fill="#18181b"/>
+    <!-- Bolt 3 -->
+    <path d="M152 40 L188 40 L168 98 L198 98 L136 168 L154 114 L128 114 Z" fill="#18181b"/>
+    <!-- Footer Text: 공 포 -->
+    <text x="122" y="252" class="badge-txt" font-size="34" letter-spacing="12px" text-anchor="middle">공 포</text>
+  </g>
+
+  <!-- Badge 2: 12세이용가 -->
+  <g transform="translate(265, 0)">
+    <!-- Outer Blue Card -->
+    <rect x="0" y="0" width="245" height="280" rx="32" fill="#3b82f6" stroke="#1d4ed8" stroke-width="8"/>
+    <!-- Inner Muted Blue Area for '12' -->
+    <rect x="16" y="16" width="213" height="180" rx="20" fill="#94a3b8"/>
+    <!-- Big White Number 12 -->
+    <text x="122" y="156" class="badge-txt" font-size="140" font-weight="900" text-anchor="middle">12</text>
+    <!-- Footer Text: 12세이용가 -->
+    <text x="122" y="252" class="badge-txt" font-size="30" text-anchor="middle">12세이용가</text>
+  </g>
+</svg>

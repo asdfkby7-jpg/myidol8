@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 880" width="800" height="880">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700;900&amp;display=swap');
+      .txt-main { font-family: 'Noto Sans KR', sans-serif; font-weight: 900; fill: #000000; }
+      .badge-txt { font-family: 'Noto Sans KR', sans-serif; font-weight: 900; fill: #ffffff; }
+    </style>
+  </defs>
+
+  <!-- Card Background -->
+  <rect x="0" y="0" width="800" height="880" fill="#ffffff"/>
+
+  <!-- Top Right Badges -->
+  <!-- Badge 1: 공포 -->
+  <g transform="translate(260, 0)">
+    <rect x="0" y="0" width="250" height="280" rx="32" fill="#1e293b" stroke="#0f172a" stroke-width="10"/>
+    <!-- Inner White Area for Lightning -->
+    <rect x="18" y="18" width="214" height="180" rx="20" fill="#ffffff"/>
+    <!-- Lightning Bolts -->
+    <path d="M85 35 L125 35 L100 100 L135 100 L65 175 L85 115 L55 115 Z" fill="#1e293b"/>
+    <path d="M135 35 L175 35 L150 100 L185 100 L115 175 L135 115 L105 115 Z" fill="#1e293b"/>
+    <!-- Badge Label -->
+    <text x="125" y="252" class="badge-txt" font-size="34" letter-spacing="12px" text-anchor="middle">공 포</text>
+  </g>
+
+  <!-- Badge 2: 12세이용가 -->
+  <g transform="translate(530, 0)">
+    <rect x="0" y="0" width="250" height="280" rx="32" fill="#3b82f6" stroke="#1d4ed8" stroke-width="10"/>
+    <!-- Inner Grayish Blue Area -->
+    <rect x="18" y="18" width="214" height="180" rx="20" fill="#94a3b8"/>
+    <!-- 12 Number -->
+    <text x="125" y="155" class="badge-txt" font-size="140" font-weight="900" text-anchor="middle">12</text>
+    <!-- Badge Label -->
+    <text x="125" y="252" class="badge-txt" font-size="30" text-anchor="middle">12세이용가</text>
+  </g>
+
+  <!-- Text Section (Exact 6 lines as attached image) -->
+  <g class="txt-main" font-size="52" letter-spacing="-1px">
+    <text x="20" y="360">본 게임은 12세 이용가로,</text>
+    <text x="20" y="445">12세 미만은 이용할 수</text>
+    <text x="20" y="530">없습니다.</text>
+    <text x="20" y="630">BGM 등에서 공포 요소가</text>
+    <text x="20" y="715">경미하게 표현 될 수</text>
+    <text x="20" y="800">있습니다.</text>
+  </g>
+</svg>
